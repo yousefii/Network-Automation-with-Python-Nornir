@@ -1,6 +1,5 @@
 ---
-#daste bandi tajhizat va inke har gorooh che platformi darad
-#attribute hayi k dar sathe gorooh dar hame tajhizat yeksan ast
+#Device classifications
 cisco:
   platform: ios
    

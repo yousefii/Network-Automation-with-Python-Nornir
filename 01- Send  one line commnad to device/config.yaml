@@ -1,6 +1,6 @@
 ---
-#moshakhas kardane inke inventory management ma chi hasrt? (maslan ansible,netbox,...)
-#k mohemtarin inventory nornir SimpleInventory ast
+# define SimpleInventory as our inventory management
+#SimpleInventory is most important tools for inventory management
 
 inventory:
   plugin: SimpleInventory
@@ -9,7 +9,7 @@ inventory:
     group_file: "groups.yaml"
     defaults_file: "defaults.yaml"
 
-#bakhshi ast k migim device ha chand ta chandta config shavand
+
 runner:
   plugin: threaded
   options:

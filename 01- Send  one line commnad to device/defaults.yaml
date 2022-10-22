@@ -1,5 +1,5 @@
 ---
-#attribute hayi k dar hame tajhizat yeksan ast dar in file gharar migirad
+#same attributes for all devices place in this file 
 username: "iman"
 password: "iman"
 platform: "ios"
