@@ -1,0 +1,13 @@
+---
+#daste bandi tajhizat va inke har gorooh che platformi darad
+#attribute hayi k dar sathe gorooh dar hame tajhizat yeksan ast
+cisco:
+  platform: ios
+   
+juniper:
+  platform: junos
+  data:
+    snmp: iman.com   
+
+
+  
