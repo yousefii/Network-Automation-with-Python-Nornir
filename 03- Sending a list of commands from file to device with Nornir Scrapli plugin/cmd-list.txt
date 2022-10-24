@@ -1,0 +1,4 @@
+show ip interface brief | inc up
+show version | inc IOS XE
+show line vty 0 1
+
