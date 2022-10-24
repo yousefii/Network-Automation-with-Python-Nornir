@@ -1,0 +1,12 @@
+---
+#Device classifications
+cisco:
+  platform: ios
+   
+juniper:
+  platform: junos
+  data:
+    snmp: iman.com   
+
+
+  

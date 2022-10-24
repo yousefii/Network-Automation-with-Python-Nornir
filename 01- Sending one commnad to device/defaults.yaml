@@ -1,0 +1,5 @@
+---
+#same attributes for all devices place in this file 
+username: "iman"
+password: "iman"
+platform: "ios"
