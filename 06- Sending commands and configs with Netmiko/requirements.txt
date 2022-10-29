@@ -1,0 +1,2 @@
+python3 -m pip install nornir
+python3 -m pip install nornir-netmiko

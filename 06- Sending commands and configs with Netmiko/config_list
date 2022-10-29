@@ -1,0 +1,7 @@
+username yousefi password yousefi
+
+router ospf 100
+ router-id 1.1.1.1
+ network 10.10.10.10 0.0.0.0 area 0
+
+
