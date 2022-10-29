@@ -1,0 +1,5 @@
+username mtz password mtz
+router ospf 100
+router-id 1.1.1.1
+ net 10.1.1.1 0.0.0.255 area 0
+ 
