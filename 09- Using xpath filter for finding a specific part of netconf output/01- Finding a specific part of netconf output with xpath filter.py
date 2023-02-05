@@ -11,10 +11,10 @@ def netconf_xpath(task):
 
 
 #    task.run(task=netconf_get_config, source="running", filter_type="xpath", filter_="/native")
-    task.run(task=netconf_get_config, source="running", filter_type="xpath", filter_="/native/hostname")
-#    task.run(task=netconf_get_config, source="running", filter_type="xpath", filter_="/native/ip/access-list/standard")
+#    task.run(task=netconf_get_config, source="running", filter_type="xpath", filter_="/native/hostname")
+    task.run(task=netconf_get_config, source="running", filter_type="xpath", filter_="/native/ip/access-list/standard")
 #    task.run(task=netconf_get_config, source="running", filter_type="xpath", filter_="/native/router")
-#    task.run(task=netconf_get_config, source="running", filter_type="xpath", filter_="/native/router/router-ospf")
+    task.run(task=netconf_get_config, source="running", filter_type="xpath", filter_="/native/router/router-ospf")
 #    task.run(task=netconf_get_config, source="running", filter_type="xpath", filter_="//router-ospf")
 #    task.run(task=netconf_get_config, source="running", filter_type="xpath", filter_="/native//ospf")
 #    task.run(task=netconf_get_config, source="running", filter_type="xpath", filter_="//interfaces")
