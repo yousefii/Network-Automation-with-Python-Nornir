@@ -1,0 +1,12 @@
+---
+#moshakhasat har device va inke joze kodam group ast
+#yek device mitavanad jozve chandin gorooh bashad maslan -cisco -router -tehran
+R1:
+  hostname: "192.168.200.200"
+  username: "iman"
+  password: "iman"
+  groups: 
+    - cisco
+
+
+  

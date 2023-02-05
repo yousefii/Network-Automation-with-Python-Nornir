@@ -1,0 +1,10 @@
+---
+#daste bandi tajhizat va inke har gorooh che platformi darad
+#attribute hayi k dar sathe gorooh dar hame tajhizat yeksan ast
+cisco:
+  platform: ios
+  #yani har tajhizi k dar goruh cisco ast platform ios darad
+   
+
+
+  
