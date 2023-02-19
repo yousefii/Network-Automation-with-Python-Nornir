@@ -5,7 +5,7 @@ from nornir_netconf.plugins.tasks import netconf_commit
 from nornir_utils.plugins.functions import print_result
 
 
-# ba operation mishavad taeen kard config "merge" ya "replace" shavad
+
 #        <router-ospf xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-ospf"> pishfarz merge mikonad
 #        <router-ospf operation="merge" xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-ospf">
 #        <router-ospf operation="replace" xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-ospf">
@@ -34,7 +34,6 @@ config1= """
 """
 
 
-# ba operation mishavad taeen kard config "merge" ya "replace" shavad
 #            <bgp operation="merge">
 #            <bgp operation="replace">
 #            <bgp>
@@ -98,10 +97,10 @@ config3= """
 nr = InitNornir(config_file="config.yaml")
 
 def netconf_edit_config_example(task):
-#    #agar az nornir_scrapli.tasks estefade kardim az dastoore zir estefade mikonim 
+
     task.run(task=netconf_edit_config, target="candidate", config=config1)
 
-    #agar az nornir_netconf.plugins.tasks estefade kardim az dastoore zir estefade mikonim 
+
 #    task.run(task=netconf_edit_config, xmldict="false", target="candidate", config=config1)
     task.run(task=netconf_commit)
 
